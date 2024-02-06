@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void showtoast( View view ){
-        Toast.makeText(this, "Button Toast Clicked",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Button Toast is Clicked",Toast.LENGTH_SHORT).show();
     }
     public void countup( View view){
         ++mCount;
