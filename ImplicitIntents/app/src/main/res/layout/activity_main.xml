@@ -18,7 +18,7 @@
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="4dp"
-        android:background="@color/purple_500" />
+        android:background="@color/design_default_color_primary" />
 
     <EditText
         android:id="@+id/website_edittext"
@@ -40,7 +40,7 @@
         android:id="@+id/divider1"
         android:layout_width="match_parent"
         android:layout_height="4dp"
-        android:background="@color/purple_500" />
+        android:background="@color/design_default_color_primary" />
 
     <EditText
         android:id="@+id/location_edittext"
@@ -62,7 +62,7 @@
         android:id="@+id/divider2"
         android:layout_width="match_parent"
         android:layout_height="4dp"
-        android:background="@color/purple_500"
+        android:background="@color/design_default_color_primary"
         tools:ignore="DuplicateIds" />
 
     <EditText
@@ -85,7 +85,7 @@
         android:id="@+id/divider2"
         android:layout_width="match_parent"
         android:layout_height="4dp"
-        android:background="@color/purple_500"
+        android:background="@color/design_default_color_primary"
         tools:ignore="DuplicateIds" />
 
 </LinearLayout>
