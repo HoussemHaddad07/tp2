@@ -11,7 +11,8 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <View
         android:id="@+id/divider"
@@ -61,7 +62,8 @@
         android:id="@+id/divider2"
         android:layout_width="match_parent"
         android:layout_height="4dp"
-        android:background="@color/purple_500" />
+        android:background="@color/purple_500"
+        tools:ignore="DuplicateIds" />
 
     <EditText
         android:id="@+id/share_edittext"
@@ -80,9 +82,10 @@
         android:text="SHARE TEXT" />
 
     <View
-        android:id="@+id/divider3"
+        android:id="@+id/divider2"
         android:layout_width="match_parent"
         android:layout_height="4dp"
-        android:background="@color/purple_500" />
+        android:background="@color/purple_500"
+        tools:ignore="DuplicateIds" />
 
 </LinearLayout>
